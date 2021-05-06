@@ -2,7 +2,7 @@ let loadHome = () => {
     Controller('/partialPages/Home.html', 'GET', null);
 }
 
-let loadAboutUs = () => {
+let loadContactUs = () => {
     Controller('/partialPages/AboutUs.html', 'GET', null, true);
 }
 
